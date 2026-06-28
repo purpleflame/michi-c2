@@ -10,7 +10,7 @@ GENCODE=
 #CFLAGS= -O3 -march=native -msse4 -fshort-enums -Wall -Wno-char-subscripts
 
 # Normal compilation options for production
-CFLAGS= -DNDEBUG -O3 -march=native -msse4 -fshort-enums -Wall -Wno-char-subscripts
+CFLAGS= -DNDEBUG -O3 -march=native -msse4 -fshort-enums -Wall -Wno-char-subscripts -std=c99 -fcommon
 
 # Compilation options for running valgrind
 #CFLAGS=-O0 -g -march=native -msse4 -Wall -std=gnu99
